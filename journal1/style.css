@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    background-color: #deecff;
+}
+
+h1 {
+    background-color: lightblue;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto 0 auto;
+    padding: 20px 0;
+    border-radius: 10px;
+}
+
+.what {
+    background-color: lightblue;
+    width: 300px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.will {
+    background-color: lightblue;
+    width: 450px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.why {
+    background-color: lightblue;
+    width: 350px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+img {
+    position: absolute;
+
+}
+
+p {
+    font-weight: normal;
+}
+
+div {
+    position: relative;
+    width: 900px;
+    margin: auto;
+}
