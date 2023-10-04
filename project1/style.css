@@ -1,0 +1,359 @@
+body {
+    /*background-color: #b3d9a7;*/
+    background-image: url(images/background.png);
+    background-repeat: repeat;
+    background-size: 40px;
+    
+}
+
+#opener {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.title {
+    font-family: 'Glass Antiqua', cursive;
+    color: #f7fff5;
+    font-size: 5vw;
+    width: 600px;
+    position: relative;
+    top: 10vw;
+    left: 13vh;
+    z-index: 11;
+}
+
+.subtitle {
+    font-family: 'Glass Antiqua', cursive;
+    color: #f7fff5;
+    font-size: 3vw;
+    position: relative;
+    top: -5vw;
+}
+
+.link1 {
+    background-image: url(images/link1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 7vw;
+    top: 30vw;
+}
+
+.summary-link { 
+    font-family: 'Glass Antiqua', cursive;
+    color: #f7fff5;
+    position: relative;
+    left: 3.5vw;
+    top: 22vh;
+}
+
+.summary-link:hover {
+    color: #7a9174;
+}
+
+.characters-link { 
+    font-family: 'Glass Antiqua', cursive;
+    color: #f7fff5;
+    position: relative;
+    left: 3.5vw;
+    top: 22vh;
+}
+
+.characters-link:hover {
+    color: #7a9174;
+}
+
+.books-link { 
+    font-family: 'Glass Antiqua', cursive;
+    color: #f7fff5;
+    position: relative;
+    left: 4.5vw;
+    top: 22vh;
+}
+
+.books-link:hover {
+    color: #7a9174;
+}
+
+.link1:hover {
+    background-image: url(images/link1hover.png);
+}
+
+.link2 {
+    background-image: url(images/link2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 20vw;
+    top: 30vw;
+}
+
+.link2:hover {
+    background-image: url(images/link2hover.png);
+}
+
+.link3 {
+    background-image: url(images/link3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 33vw;
+    top: 30vw;
+}
+
+.link3:hover {
+    background-image: url(images/link3hover.png);
+}
+
+.cocofigure {
+    background-image: url(images/coco_figure.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 0vw;
+    right: 0vh;
+}
+
+#summary {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.summarypic {
+    background-image: url(images/summarypic.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 475px;
+    height: 800px;
+    position: absolute;
+    top: 18vw;
+    left: 0vh;
+}
+
+.summary-title {
+    font-family: 'Glass Antiqua', cursive;
+    color: #f7fff5;
+    font-size: 5vw;
+    text-align: right;
+    margin-right: 5vh;
+}
+
+.summary-p {
+    font-family: 'Mooli', sans-serif;
+    color: #f7fff5;
+    font-size: 1.5vw;
+    text-align: right;
+    margin-left: 80vh;
+    margin-right: 5vh;
+}
+
+#characters {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.characters-title {
+    font-family: 'Glass Antiqua', cursive;
+    color: #f7fff5;
+    font-size: 5vw;
+    text-align: center;
+}
+
+.qifrey {
+    background-image: url(images/qifrey.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 900px;
+    position: absolute;
+    top: 13vw;
+    left: 20vh;
+}
+
+.coco {
+    background-image: url(images/coco.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 900px;
+    position: absolute;
+    top: 13vw;
+    left: 80vh;
+}
+
+.agott {
+    background-image: url(images/agott.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 900px;
+    position: absolute;
+    top: 13vw;
+    right: 20vh;
+}
+
+.characters-qifrey {
+    font-family: 'Glass Antiqua', cursive;
+    color: #f7fff5;
+    font-size: 3vw;
+    position: relative;
+    top: 27vw;
+    left: 37vh;
+}
+
+.characters-coco {
+    font-family: 'Glass Antiqua', cursive;
+    color: #f7fff5;
+    font-size: 3vw;
+    position: relative;
+    top: 20vw;
+    left: 100vh;
+}
+
+.characters-agott {
+    font-family: 'Glass Antiqua', cursive;
+    color: #f7fff5;
+    font-size: 3vw;
+    position: relative;
+    top: 13vw;
+    left: 155vh;
+}
+
+#books {
+    width: 100vw;
+    height: 120vh;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.books-title {
+    font-family: 'Glass Antiqua', cursive;
+    color: #f7fff5;
+    font-size: 5vw;
+    text-align: center;
+}
+
+.wha1 {
+    background-image: url(images/wha1.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    top: 15vw;
+    left: 15vh;
+}
+
+.wha2 {
+    background-image: url(images/wha2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    top: 30vw;
+    left: 50vh;
+}
+
+.wha3 {
+    background-image: url(images/wha3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    top: 15vw;
+    left: 85vh;
+}
+
+.wha4 {
+    background-image: url(images/wha4.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    top: 30vw;
+    right: 50vh;
+}
+
+.wha5 {
+    background-image: url(images/wha5.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    top: 15vw;
+    right: 15vh;
+}
+
+#author {
+    width: 100vw;
+    height: 130vh;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.author-title {
+    font-family: 'Glass Antiqua', cursive;
+    color: #f7fff5;
+    font-size: 5vw;
+    text-align: left;
+    margin-left: 5vh;
+    margin-bottom: 5px;
+}
+
+.author-p {
+    font-family: 'Mooli', sans-serif;
+    color: #f7fff5;
+    font-size: 1.5vw;
+    text-align: left;
+    margin-left: 5vh;
+    margin-right: 70vh;
+}
+
+a {
+    color: #7a9174;
+}
+
+.example1 {
+    background-image: url(images/example1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    top: 11vw;
+    right: 20vh;
+}
+
+.example3 {
+    background-image: url(images/example3.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    top: 35vw;
+    right: 20vh;
+}
