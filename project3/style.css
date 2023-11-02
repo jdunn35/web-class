@@ -1,0 +1,317 @@
+* {
+    background-color: black;
+}
+
+.sign {
+    background-image: url(images/img_3.PNG);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    height: 400px;
+    width: 400px;
+    margin-left: 35vw;
+    margin-top: 10vh;
+}
+
+h1 {
+    color: white;
+    font-family: 'DotGothic16', sans-serif;
+    text-align: center;
+    font-size: 10vh;
+}
+
+h2 {
+    color: white;
+    font-family: 'DotGothic16', sans-serif;
+    text-align: center;
+    font-size: 5vh;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:hover h2 {
+    color: yellow;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    color: white;
+    font-family: 'DotGothic16', sans-serif;
+    text-align: center;
+    font-size: 2vh;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+    text-align: center;
+    width: 100%;
+}
+
+.koronba_1 {
+    background-image: url(images/img_4.PNG);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    height: 400px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+    border: 5px solid white;
+}
+
+.k2_cone {
+    background-image: url(images/img_2.PNG);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    height: 200px;
+    width: 200px;
+    margin-left: 25vw;
+    margin-top: 23vh;
+    position: absolute;
+    background-color: transparent;
+}
+
+.k2_sign {
+    background-image: url(images/img_3.PNG);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    height: 300px;
+    width: 300px;
+    margin-left: 55vw;
+    margin-top: 10vh;
+    position: absolute;
+    background-color: transparent;
+}
+
+.koronba_2 {
+    background-image: url(images/img_5.PNG);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    height: 400px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+    border: 5px solid white;
+}
+
+.koronba_3 {
+    background-image: url(images/img_6.PNG);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    height: 400px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+    border: 5px solid white;
+}
+
+.koronba_4 {
+    background-image: url(images/img_7.PNG);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    height: 400px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+    border: 5px solid white;
+}
+
+.koronba_5 {
+    background-image: url(images/img_8.PNG);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    height: 400px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+    border: 5px solid white;
+}
+
+.koronba_6 {
+    background-image: url(images/img_9.PNG);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    height: 400px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+    border: 5px solid white;
+}
+
+.koronba_7 {
+    background-image: url(images/img_10.PNG);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    height: 400px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+    border: 5px solid white;
+}
+
+.koronba_8 {
+    background-image: url(images/img_5.PNG);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    height: 400px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+    border: 5px solid white;
+}
+
+.k8_cone {
+    background-image: url(images/img_2.PNG);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    height: 200px;
+    width: 200px;
+    margin-left: 41vw;
+    margin-top: 23vh;
+    position: absolute;
+    background-color: transparent;
+}
+
+.defoko_1 {
+    background-image: url(images/img_5.PNG);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    height: 400px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+    border: 5px solid white;
+}
+
+.koronba_9 {
+    background-image: url(images/img_12.PNG);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    height: 400px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+    border: 5px solid white;
+}
+
+.defoko_2 {
+    background-image: url(images/img_11.PNG);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    height: 400px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+    border: 5px solid white;
+}
+
+.defoko_3 {
+    background-image: url(images/img_13.PNG);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    height: 400px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+    border: 5px solid white;
+}
+
+.defoko_4 {
+    background-image: url(images/img_14.PNG);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    height: 400px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+    border: 5px solid white;
+}
+
+.defoko_5 {
+    background-image: url(images/img_15.PNG);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    height: 400px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+    border: 5px solid white;
+}
+
+.defoko_6 {
+    background-image: url(images/img_16.PNG);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    height: 400px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+    border: 5px solid white;
+}
+
+.defoko_7 {
+    background-image: url(images/img_17.PNG);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    height: 400px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+    border: 5px solid white;
+}
+
+.defoko_8 {
+    background-image: url(images/img_15.PNG);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    height: 400px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+    border: 5px solid white;
+}
+
+.defoko_9 {
+    background-image: url(images/img_16.PNG);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    height: 400px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+    border: 5px solid white;
+}
+
+.defoko_10 {
+    background-image: url(images/img_15.PNG);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    height: 400px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+    border: 5px solid white;
+}
