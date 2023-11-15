@@ -1,0 +1,135 @@
+* {
+    background-color: #b0e4f7;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Raleway', sans-serif;
+}
+
+/*.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }*/
+
+.flex-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.column {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+.quote {
+    /*grid-area: 1 / 1 / 2 / 2;*/
+    background-image: url(images/pexels-tiago-cardoso-2402995.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+}
+
+.quote h1 {
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    left: 5px;
+    top: -10px;
+}
+
+.quote h2 {
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+.text p {
+    width: 50%;
+    font-size: 20px;
+    line-height: 25px;
+    position: absolute;
+    top: -10px;
+    right: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0;
+}
+
+@media screen and (max-width: 600px) {
+        .flex-area {
+            flex-direction: row;
+        }
+    
+        .column {
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .quote {
+            background-image: url(images/pexels-matt-hardy-1533720.jpg);
+            background-position: center;
+            background-size: cover;
+            width: 100%;
+            height: 100vh;
+            position: absolute;
+        }
+        
+        .quote h1 {
+            font-size: 45px;
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0);
+            text-align: center;
+        }
+        
+        .quote h2 {
+            font-size: 30px;
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0);
+            bottom: 0;
+            color: white;
+            left: 30vw;
+        }
+}
+
+/*
+
+.quote {
+    background-image: url(images/pexels-matt-hardy-1533720.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+h1 {
+    font-size: 45px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    bottom: 0;
+    color: white;
+    left: 30vw;
+}
+
+p {
+    font-size: 20px;
+}
+
+*/
