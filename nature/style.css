@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Crimson Text', serif;
+    font-size: 24px;
+}
+
+#leaves {
+    background-color: aliceblue;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+/* this selects all of the leaf divs without having to assign this height separately/four times */
+.container div img {
+    height: 35vh;
+}
+
+.purple-leaf {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    rotate: 30deg;
+}
+
+.purple-leaf:hover {
+    cursor: pointer;
+}
+
+.yellow-leaf {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    rotate: -30deg;
+}
+
+.pink-leaf {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    rotate: 10deg;
+}
+
+.green-leaf {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    rotate: 20deg;
+}
+
+.purple-leaf2 {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    rotate: -30deg;
+    display: none;
+}
+
+.reset {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: red;
+}
+
+.reset:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+
+.div1 {
+    grid-area: 1 / 1 / 2 / 2;
+    background-image: url(images/tulip.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+}
+
+.div2 {
+    grid-area: 1 / 2 / 2 / 3;
+    background-image: url(images/rose.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+}
+    
+.div3 {
+    grid-area: 2 / 1 / 3 / 2;
+    background-image: url(images/lily.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+}
+    
+.div4 {
+    grid-area: 2 / 2 / 3 / 3;
+    background-image: url(images/daisy.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+}
+
+.div1-text, .div2-text, .div3-text, .div4-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 50px;
+    font-style: italic;
+    color: purple;
+    margin: 10%;
+    display: none;
+}
+
+.front {
+    opacity: 0.5;
+    z-index: 99;
+}
