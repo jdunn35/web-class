@@ -1,51 +1,105 @@
 body {
-    background-color: rgb(225, 186, 255);
-    /*this color might work
-    background-color: purple;*/
-    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(images/background.gif);
+    font-family: 'Pixelify Sans', sans-serif;
 }
 
-h1 {
-    font-size: 80px;
-    font-weight: normal;
-    font-style: italic;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.header1 {
+    width: 70%;
+    margin: auto;
 }
 
-a {
-    color: red;
-    font-weight: bold;
+.header2 {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.button {
+    background-color: #e2a8ff;
+    padding: 15px 32px;
+    text-align: center;
     text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    display: block;
+    border: 1px solid #bd38ff;
+    border-radius: 8px;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-a:hover {
-    text-decoration: underline;
-    color: green;
-    font-size: 30px;
-}
-
-hr {
-    border-color: red;
-}
-
-h6 {
-    text-transform: uppercase;
-    color: blue;
-}
-
-p {
-    font-size: 20px;
+.button a {
+    text-decoration: none;
     color: purple;
 }
 
-.red {
-    color: orange;
-    font-weight: bold;
-    background-color: red;
-    padding: 50px 20px 50px 20px;
-    margin: 100px 0;
+.button a:hover {
+    color: white;
 }
 
-#highlight {
-    background-color: yellow;
+.parent1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+    
+.exercises {
+    grid-area: 1 / 1 / 2 / 2;
+}
+    
+.journals {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.projects {
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.parent2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-top: 100px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+.div1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.div2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+    
+.div3 {
+    grid-area: 1 / 3 / 2 / 4;
+}
+    
+.div4 {
+    grid-area: 1 / 4 / 2 / 5;
+}
+    
+.div5 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+    
+.div6 {
+    grid-area: 2 / 2 / 3 / 3;
+}
+    
+.div7 {
+    grid-area: 2 / 3 / 3 / 4;
+}
+    
+.div8 {
+    grid-area: 2 / 4 / 3 / 5;
 }
