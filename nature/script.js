@@ -50,4 +50,19 @@ $(document).ready(function(){
         $(".div4-text").toggle();
         $(this).toggleClass("front")
     });
+
+    // trees
+    $("h4").click(function(){
+        $(this).next(".tree-text").slideToggle();
+    });
+
+    // navigation
+    $(".link").click(function(){
+        // toggles the link
+        $(this).addClass("highlight");
+        $(this).siblings().removeClass("highlight");
+
+        // toggles the section area
+        $($(this).attr("href")).addClass("active").siblings().removeClass("active");
+    });
 });

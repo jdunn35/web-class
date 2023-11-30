@@ -135,3 +135,117 @@ body {
     opacity: 0.5;
     z-index: 99;
 }
+
+.trees-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    width: 50%;
+    padding: 0 5px;
+}
+
+.dfir {
+    background-image: url(images/coast_douglas_fir.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 70vh;
+}
+
+.lpine {
+    background-image: url(images/longleaf_pine.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 70vh;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h3 {
+    font-style: italic;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background-color: rgb(185, 255, 185);
+    border-bottom: 1px solid #ccc;
+}
+
+.tree-text {
+    padding: 20px;
+    font-size: 20px;
+    display: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 99;
+}
+
+.link {
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    padding: 5px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.link:hover {
+    background-color: brown;
+}
+
+.highlight {
+    background-color: green;
+    color: yellow;
+    text-transform: uppercase;
+    padding: 5px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.link-content {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+@media screen and (max-width: 500px) {
+    .trees-container {
+        flex-direction: column;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    .div1-text, .div2-text, .div3-text, .div4-text {
+        font-size: 30px;
+    }
+
+    .container div img {
+        height: 20vh;
+    }
+}

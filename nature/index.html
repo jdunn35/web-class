@@ -10,7 +10,12 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> <!--adds jquery library to document so we can use jquery commands in the javascript file-->
     </head>
     <body>
-        <section id="leaves">
+        <div class="nav-container">
+            <a href="#leaves" class="link highlight">Leaves</a>
+            <a href="#flowers" class="link">Flowers</a>
+            <a href="#trees" class="link">Trees</a>
+        </div>
+        <section id="leaves" class="link-content active">
             <div class="container">
                 <div class="purple-leaf"><img src="images/purple-leaf.png" alt="Purple leaf"></div>
                 <div class="yellow-leaf"><img src="images/yellow-leaf.png" alt="Yellow leaf"></div>
@@ -20,7 +25,7 @@
                 <p class="reset">reset</p>
             </div>
         </section>
-        <section id="flowers">
+        <section id="flowers" class="link-content">
             <div class="container">
                 <div class="parent">
                     <div class="div1"></div>
@@ -32,6 +37,76 @@
                 <div class="div2-text">A rose is either a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears. There are over three hundred species and tens of thousands of cultivars.</div>
                 <div class="div3-text">Lilium is a genus of herbaceous flowering plants growing from bulbs, all with large prominent flowers. They are the true lilies. Lilies are a group of flowering plants which are important in culture and literature in much of the world.</div>
                 <div class="div4-text">Bellis perennis, the daisy, is a European species of the family Asteraceae, often considered the archetypal species of the name daisy. To distinguish this species from other plants known as daisies, it is sometimes qualified as common daisy, lawn daisy or English daisy.</div>
+            </div>
+        </section>
+        <section id="trees" class="link-content">
+            <div class="trees-container">
+                <div class="column">
+                    <div class="dfir"></div>
+                <h2>Douglas Fir</h2>
+                <h3>Pseudotsuga menziesii</h3>
+                <div class="accordion">
+                    <ul>
+                        <li>
+                            <h4>Description</h4>
+                            <div class="tree-text">
+                                Douglas fir, which has sometimes been called the Douglas tree, Oregon pine, and Douglas spruce, is not actually a true fir, a pine, or a spruce. Indicative of the taxonomic confusion about this tree, the scientific genus name Pseudotsuga means “false hemlock,” alluding to yet another kind of tree somewhat similar to this unique but important tree. Douglas firs are evergreen trees, meaning they keep their needle-like leaves year-round. There are two varieties of this species, coast Douglas fir and Rocky Mountain Douglas fir, which are differentiated by their habitats, growth rates, and physical characteristics.
+                            </div>
+                        </li>
+                        <li>
+                            <h4>Conservation</h4>
+                            <div class="tree-text">
+                                The population of these trees is stable. Many people are familiar with Douglas firs because they are one of several species used as Christmas trees. Aside from their use as holiday decorations, Douglas firs are one of the most valuable timber resources in the country. They’re used for furniture, poles, fences, and flooring, among other things. Although they are harvested extensively for timber, Douglas firs are widespread and aren’t in danger of extinction. However, when the trees are cut down, rare wildlife species like northern spotted owls lose valuable habitat. If stressed, the trees are also susceptible to needle disease and insect problems.
+                            </div>
+                        </li>
+                        <li>
+                            <h4>Fun Fact</h4>
+                            <div class="tree-text">
+                                Douglas firs were used by Native Americans for building, basketry, and medicinal purposes. Ailments that Douglas firs were used to cure include stomach aches, headaches, rheumatism, and the common cold.
+                            </div>
+                        </li>
+                        <li>
+                            <h4>Source</h4>
+                            <div class="tree-text">
+                                <a href="https://www.nwf.org/Educational-Resources/Wildlife-Guide/Plants-and-Fungi/Douglas-Fir" target="_blank"><p>National Wildlife Federation</p></a>
+                                <a href="https://mstrieby.myportfolio.com/conifers-test-1" target="_blank"><p>Matt Strieby</p></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+                <div class="column"><div class="lpine"></div>
+                <h2>Longleaf Pine</h2>
+                <h3>Pinus palustris</h3>
+                <div class="accordion">
+                <ul>
+                    <li>
+                        <h4>Description</h4>
+                        <div class="tree-text">
+                            Longleaf pine is an evergreen conifer that got its common name for having the longest leaves of the eastern pine species. The needlelike leaves, which come in bundles of three, can grow up to 18 inches (46 centimeters) long. Mature trees stand 80 to 100 feet (24 to 30 meters) tall. The single trunk, which is covered in thick, scaly bark, reaches up to three feet (0.9 meters) in diameter. The trees naturally prune their lower branches and grow almost perfectly straight.
+                        </div>
+                    </li>
+                    <li>
+                        <h4>Conservation</h4>
+                        <div class="tree-text">
+                            Longleaf pines, which once covered an estimated 90 million acres, now cover less than 3 percent of their original range. This tree was once so abundant that it seemed like an inexhaustible resource to early settlers. Forests of longleaf pines were cleared to make space for development and agriculture. The lumber, which is of exceptional quality, was used for building ships and railroads. Most of the longleaf pines were gone by the 1920s, and they had a hard time coming back on their own because of fire suppression. Rather than replanting the longleaf pines, foresters replaced them with faster-growing pines that would produce more short-term economic benefits.
+                        </div>
+                    </li>
+                    <li>
+                        <h4>Fun Fact</h4>
+                        <div class="tree-text">
+                            The southern longleaf pine (Pinus palustris Miller) is the state tree of Alabama.
+                        </div>
+                    </li>
+                    <li>
+                        <h4>Source</h4>
+                        <div class="tree-text">
+                            <a href="https://www.nwf.org/Educational-Resources/Wildlife-Guide/Plants-and-Fungi/Longleaf-Pine" target="_blank"><p>National Wildlife Federation</p></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            </div>
             </div>
         </section>
         <script src="script.js"></script>
