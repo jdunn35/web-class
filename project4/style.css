@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main page */
+.mainbody {
+    background-color: #ff4b8b;
+    height: 100vh;
+}
+
+.mainpic img {
+    height: 55vh;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainbody h1 {
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 14vh;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.pi:hover {
+    color: #b2fbe6;
+}
+
+.no:hover {
+    color: #ffadd1;
+}
+
+.ki:hover {
+    color: #fedf1d;
+}
+
+.o:hover {
+    color: #b2fbe6;
+}
+
+.pi2:hover {
+    color: #ffadd1;
+}
+
+.ii:hover {
+    color: #fedf1d;
+}
+
+/* bio page */
+.bio_bg {
+    background-image: url(images/biopic.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-color: #ff4b8b;
+}
+
+.biotext {
+    position: absolute;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-size: 25px;
+    color: white;
+    top: 10%;
+    right: 10%;
+    width: 30%;
+    background-color: #ff4b8b;
+    padding: 15px;
+}
+
+.biotextjp {
+    position: absolute;
+    font-size: 25px;
+    color: white;
+    top: 10%;
+    right: 10%;
+    width: 30%;
+    background-color: #ff4b8b;
+    padding: 15px;
+    display: none;
+}
+
+/* song 1 - hanauta */
+.song1body {
+    background-color: #e54295;
+    height: 94vh;
+}
+
+.topline {
+    background-color: #42e5df;
+    height: 3vh;
+}
+
+.bottomline {
+    background-color: #42e5df;
+    height: 3vh;
+}
+
+.song1body h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+    font-size: 7vh;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.song1body h2 {
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: white;
+    font-size: 4vh;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+}
+
+.doushite_head img {
+    height: 25vh;
+}
+
+.aimaina_head img {
+    height: 25vh;
+}
+
+/* song 2 - nina */
+
+.song2body {
+    background-color: #fdecf6;
+    height: 100vh;
+}
+
+.mikunoeyes img {
+    position: absolute;
+    height: 75vh;
+    top: 15%;
+    left: 30%;
+}
+
+.mikueyes img {
+    display: none;
+    position: absolute;
+    height: 75vh;
+    top: 15%;
+    left: 30%;
+}
+
+.box1 img {
+    position: absolute;
+    height: 70vh;
+    top: 0;
+    left: 0;
+    rotate: 230deg;
+}
+
+.box2 img {
+    position: absolute;
+    height: 70vh;
+    bottom: -30%;
+    left: 15%;
+    rotate: 305deg;
+}
+
+.box3 img {
+    position: absolute;
+    height: 70vh;
+    top: 10%;
+    right: 5%;
+    rotate: 160deg;
+}
+
+.box4 img {
+    position: absolute;
+    height: 70vh;
+    bottom: -35%;
+    right: 10%;
+    rotate: 260deg;
+}
+
+.box5 img {
+    position: absolute;
+    height: 70vh;
+    top: -55%;
+    left: 30%;
+    rotate: 125deg;
+}
