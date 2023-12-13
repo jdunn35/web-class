@@ -66,25 +66,41 @@ a {
 .biotext {
     position: absolute;
     font-family: 'Hedvig Letters Sans', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     color: white;
     top: 10%;
     right: 10%;
-    width: 30%;
+    width: 80%;
     background-color: #ff4b8b;
     padding: 15px;
 }
 
 .biotextjp {
     position: absolute;
-    font-size: 25px;
+    font-size: 20px;
     color: white;
     top: 10%;
     right: 10%;
-    width: 30%;
+    width: 80%;
     background-color: #ff4b8b;
     padding: 15px;
     display: none;
+}
+
+.aimaina_peek img {
+    position: absolute;
+    height: 200px;
+    z-index: 99;
+    right: 50px;
+    top: -40px;
+}
+
+.doushite_peek img {
+    position: absolute;
+    height: 200px;
+    z-index: 99;
+    left: -30px;
+    top: 130px;
 }
 
 /* song 1 - hanauta */
@@ -121,6 +137,13 @@ a {
     margin-right: auto;
 }
 
+.maintext {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+    font-size: 23px;
+    margin-top: 10px;
+}
+
 .parent {
     display: flex;
     flex-direction: row;
@@ -128,10 +151,12 @@ a {
 
 .doushite_head img {
     height: 25vh;
+    margin-top: 20vh;
 }
 
 .aimaina_head img {
     height: 25vh;
+    margin-top: 20vh;
 }
 
 /* song 2 - nina */
@@ -160,7 +185,7 @@ a {
     position: absolute;
     height: 70vh;
     top: 0;
-    left: 0;
+    left: -30px;
     rotate: 230deg;
 }
 
@@ -168,7 +193,7 @@ a {
     position: absolute;
     height: 70vh;
     bottom: -30%;
-    left: 15%;
+    left: 10%;
     rotate: 305deg;
 }
 
@@ -176,15 +201,15 @@ a {
     position: absolute;
     height: 70vh;
     top: 10%;
-    right: 5%;
+    right: -10%;
     rotate: 160deg;
 }
 
 .box4 img {
     position: absolute;
     height: 70vh;
-    bottom: -35%;
-    right: 10%;
+    bottom: -40%;
+    right: 0%;
     rotate: 260deg;
 }
 
@@ -194,4 +219,102 @@ a {
     top: -55%;
     left: 30%;
     rotate: 125deg;
+}
+
+/* song 3 - kamippoi na */
+
+.kamippoi_body {
+    background-color: #aeaca8;
+}
+
+.kamippoi_text {
+    position: relative;
+}
+
+.kami_text {
+    position: absolute;
+    font-size: 125px;
+    color: red;
+    rotate: -20deg;
+    left: 10px;
+}
+
+.tsu_text {
+    position: absolute;
+    font-size: 80px;
+    color: red;
+    left: 150px;
+    top: 50px;
+}
+
+.po_text {
+    position: absolute;
+    font-size: 125px;
+    color: red;
+    left: 300px;
+    top: 165px;
+    rotate: 20deg;
+}
+
+.i_text {
+    position: absolute;
+    font-size: 125px;
+    color: red;
+    right: 50px;
+    bottom: 50px;
+}
+
+.na_text {
+    position: absolute;
+    font-size: 125px;
+    color: red;
+    right: 50px;
+    bottom: 50px;
+}
+
+.kamippoi img {
+    height: 100vh;
+    z-index: 99;
+}
+
+/* song 4 - tensei ringo */
+
+.ringo img {
+    height: 60vh;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+}
+
+.tensei img {
+    height: 100vh;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+
+/* song 5 - pocket no monster */
+
+.pokebg img {
+    position: relative;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.whitecircle img {
+    position: absolute;
+    height: 50vh;
+    background-repeat: no-repeat;
+    z-index: 99;
+}
+
+.pokeball img {
+    position: absolute;
+    height: 10vh;
+    background-repeat: no-repeat;
+    z-index: 999;
 }
