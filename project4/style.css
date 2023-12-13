@@ -95,6 +95,10 @@ a {
     top: -40px;
 }
 
+.aimaina_peek:hover {
+    cursor: pointer;
+}
+
 .doushite_peek img {
     position: absolute;
     height: 200px;
@@ -137,6 +141,18 @@ a {
     margin-right: auto;
 }
 
+.song1body a:visited {
+    color: white;
+}
+
+.song1body a:hover {
+    color: rgb(255, 196, 196);
+}
+
+.song1body a {
+    color: white;
+}
+
 .maintext {
     font-family: 'IBM Plex Sans', sans-serif;
     color: white;
@@ -174,11 +190,14 @@ a {
 }
 
 .mikueyes img {
-    display: none;
     position: absolute;
     height: 75vh;
     top: 15%;
     left: 30%;
+}
+
+.mikueyes {
+    display: none;
 }
 
 .box1 img {
@@ -187,6 +206,10 @@ a {
     top: 0;
     left: -30px;
     rotate: 230deg;
+}
+
+.box1 img:hover {
+    cursor: pointer;
 }
 
 .box2 img {
@@ -219,15 +242,30 @@ a {
     top: -55%;
     left: 30%;
     rotate: 125deg;
+    display: block;
+}
+
+.ninatext {
+    position: absolute;
+    background-color: #ff4b8b;
+    width: 25%;
+    right: 10px;
+    top: 10px;
+    display: none;
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px;
+    padding: 10px;
 }
 
 /* song 3 - kamippoi na */
 
 .kamippoi_body {
     background-color: #aeaca8;
+    position: relative;
 }
 
-.kamippoi_text {
+.kamippoi_letters {
     position: relative;
 }
 
@@ -260,16 +298,19 @@ a {
     position: absolute;
     font-size: 125px;
     color: red;
-    right: 50px;
-    bottom: 50px;
+    left: 500px;
+    top: 350px;
+    z-index: 999;
+    rotate: 20deg;
 }
 
 .na_text {
     position: absolute;
     font-size: 125px;
     color: red;
-    right: 50px;
-    bottom: 50px;
+    left: 650px;
+    top: 450px;
+    rotate: -20deg;
 }
 
 .kamippoi img {
@@ -277,7 +318,33 @@ a {
     z-index: 99;
 }
 
+.kamippoi_text {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: black;
+    top: 10%;
+    right: 5%;
+    width: 50%;
+}
+
+.kamippoi_letters a:visited {
+    color: red;
+}
+
+.kamippoi_letters a:hover {
+    color: rgb(164, 0, 0);
+}
+
+.kamippoi_letters a {
+    color: red;
+}
+
 /* song 4 - tensei ringo */
+
+.trbody {
+    background-color: #e53566;
+}
 
 .ringo img {
     height: 60vh;
@@ -294,7 +361,45 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.tensei {
     display: none;
+}
+
+.trtitle {
+    position: absolute;
+    color: #0dd9c4;
+    font-size: 50px;
+    left: 37%;
+    top: 5%;
+    font-family: 'Mochiy Pop One', sans-serif;
+    z-index: 999;
+}
+
+.trtext {
+    position: absolute;
+    background-color: #0dd9c4;;
+    font-size: 15px;
+    left: 10%;
+    top: 48%;
+    z-index: 9999;
+    font-family: 'IBM Plex Sans', sans-serif;
+    width: 80%;
+    display: none;
+    padding: 10px;
+}
+
+.trtitle a:visited {
+    color: #0dd9c4;
+}
+
+.trtitle a:hover {
+    color: #62ffef;
+}
+
+.trtitle a {
+    color: #0dd9c4;
 }
 
 /* song 5 - pocket no monster */
@@ -307,9 +412,11 @@ a {
 
 .whitecircle img {
     position: absolute;
-    height: 50vh;
+    height: 75vh;
     background-repeat: no-repeat;
     z-index: 99;
+    top: 15%;
+    left: 20%;
 }
 
 .pokeball img {
@@ -317,4 +424,39 @@ a {
     height: 10vh;
     background-repeat: no-repeat;
     z-index: 999;
+    top: 40%;
+    left: 44%;
+}
+
+.poketitle {
+    position: absolute;
+    font-size: 30px;
+    color: rgb(222, 76, 76);
+    font-family: 'Mochiy Pop One', sans-serif;
+    z-index: 9999;
+    left: 30%;
+    top: 30%;
+}
+
+.poketext {
+    position: absolute;
+    color: rgb(222, 76, 76);
+    font-size: 15px;
+    left: 30%;
+    top: 53%;
+    z-index: 9999;
+    font-family: 'IBM Plex Sans', sans-serif;
+    width: 40%;
+}
+
+.poketitle a:visited {
+    color: rgb(222, 76, 76);
+}
+
+.poketitle a:hover {
+    color: rgb(255, 45, 45);
+}
+
+.poketitle a {
+    color: rgb(222, 76, 76);
 }
